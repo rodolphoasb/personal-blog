@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint2": "eslint src --max-warnings=0",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "src/**/*": [
