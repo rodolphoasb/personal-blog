@@ -9,11 +9,12 @@
     "lint": "next lint",
     "lint2": "eslint src --max-warnings=0",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "lint-staged": {
     "src/**/*": [
-      "npm run lint2 --fix"
+      "npm run lint2 --fix", "npm test --bail"
     ]
   },
   "dependencies": {
@@ -24,6 +25,8 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.15.0",
     "@next/eslint-plugin-next": "^11.1.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.0",
     "@types/jest": "^27.0.1",
     "@types/react": "^17.0.21",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
