@@ -10,7 +10,8 @@
     "lint2": "eslint src --max-warnings=0",
     "prepare": "husky install",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "lint-staged": {
     "src/**/*": [
@@ -31,6 +32,10 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.15.0",
+    "@graphql-codegen/add": "^3.1.0",
+    "@graphql-codegen/cli": "2.2.0",
+    "@graphql-codegen/typescript": "2.2.2",
+    "@graphql-codegen/typescript-operations": "2.1.4",
     "@next/eslint-plugin-next": "^11.1.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.0",
