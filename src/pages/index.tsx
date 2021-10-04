@@ -14,8 +14,8 @@ const Home = () => (
       </S.Heading>
       <S.Body>
         <p>
-          Front End Software Engineer, Web3 Curious. Click below to see some of
-          my work.
+          Front End Software Engineer, Web3 Curious. <br />
+          Click below to see some of my work.
         </p>
         <ul>
           <li>
