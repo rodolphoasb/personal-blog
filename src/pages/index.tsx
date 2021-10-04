@@ -16,7 +16,7 @@ const Home = () => (
         <p>Front End (React) Software Engineer, Web3 Curious</p>
         <ul>
           <li>
-            <Link href="/about">About Me</Link>
+            <Link href="/about">About Me/Portfolio</Link>
           </li>
           <li>
             <Link href="/my-trips">My Trips</Link>
