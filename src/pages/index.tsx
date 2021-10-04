@@ -13,10 +13,13 @@ const Home = () => (
         <h1>Hi, There! I&#39;m Rodolpho. 👋</h1>
       </S.Heading>
       <S.Body>
-        <p>Front End (React) Software Engineer, Web3 Curious</p>
+        <p>
+          Front End Software Engineer, Web3 Curious. Click below to see some of
+          my work.
+        </p>
         <ul>
           <li>
-            <Link href="/about">About Me/Portfolio</Link>
+            <Link href="/about">Portfolio</Link>
           </li>
           <li>
             <Link href="/my-trips">My Trips</Link>
