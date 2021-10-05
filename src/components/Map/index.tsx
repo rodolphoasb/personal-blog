@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, MapConsumer } from 'react-leaflet'
 import { useRouter } from 'next/router'
 
 import * as S from './styles'
@@ -50,6 +50,20 @@ const Map = ({ places }: MapProps) => {
           [180, -180]
         ]}
       >
+        <MapConsumer>
+          {(map) => {
+            const width =
+              window.innerWidth ||
+              document.documentElement.clientWidth ||
+              document.body.clientWidth
+
+            if (width < 768) {
+              map.setMinZoom(2)
+            }
+            return null
+          }}
+        </MapConsumer>
+
         <CustomTileLayer />
         {/* the places array have a name and slug, but at the moment they're not being used, comment bellow is a reminder to use them in the future */}
         {/* {places?.map(({ id, name, slug, location }) */}
