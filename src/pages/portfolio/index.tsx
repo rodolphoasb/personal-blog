@@ -1,6 +1,6 @@
 import { HomeOutline } from '@styled-icons/evaicons-outline'
 import LinkWrapper from '../../components/LinkWrapper'
-import * as S from './styles'
+import * as S from '../../styles/portfolio'
 
 export default function Index() {
   return (
