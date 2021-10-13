@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   z-index: 1100; //bigger than leaflet
   top: var(--medium);
   right: var(--medium);
-  color: var(--white);
+  color: #d1d5db;
   cursor: pointer;
 
   svg {
@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 
   &:hover {
     svg {
-      color: var(--highlight);
+      color: #3b82f6;
     }
   }
 `

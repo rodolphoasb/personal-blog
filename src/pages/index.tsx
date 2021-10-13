@@ -1,6 +1,7 @@
 import * as S from 'styles/home'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
+import GetInTouch from '../components/GetInTouch'
 
 const Home = () => (
   <>
@@ -19,16 +20,17 @@ const Home = () => (
         </p>
         <ul>
           <li>
-            <Link href="/about">Portfolio</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li>
             <Link href="/my-trips">My Trips</Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
+            <Link href="/articles">Blog</Link>
           </li>
         </ul>
       </S.Body>
+      <GetInTouch />
     </S.Content>
   </>
 )
