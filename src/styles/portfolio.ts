@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   min-height: 100vh;
   width: 100%;
   background: #f9fafb;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: center;
 
@@ -39,7 +40,30 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  div {
-    margin-bottom: 8rem;
+  .project {
+    margin-bottom: 6rem;
+
+    ul {
+      list-style-position: inside;
+    }
+
+    li {
+      font-size: 1.5rem;
+      color: #3b82f6;
+    }
+  }
+
+  .title-and-link {
+    display: flex;
+    align-items: baseline;
+
+    a {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+
+    img {
+      width: 18px;
+    }
   }
 `
