@@ -25,10 +25,10 @@ export default function Index() {
               </a>
             </div>
             <p>
-              This website was made for a Brazilian Startup that enable doctors
-              and psychologist to have a office room in a much easier way
-              (Wework for doctors). The project was concluded in february 2021,
-              and in July 2021 they raised $5.9M in a series A round.
+              The website was made for a Brazilian Startup that enables doctors
+              and psychologists to have an office room in a much easier way
+              (WeWork for doctors). The project was concluded in February 2021,
+              and in July 2021 they raised $5.9M in a Series A round.
             </p>
             <h3>Tech Stack</h3>
             <ul>
@@ -50,9 +50,9 @@ export default function Index() {
               </a>
             </div>
             <p>
-              Collegia is an UK based startup that aims to provide a digital
-              Auto Enrolment pension. Collegia was born in University of Oxford
-              and till this date they&#39;ve raised £750K.
+              Collegia is a UK-based startup that aims to provide a digital Auto
+              Enrolment pension. Collegia were born at the University of Oxford
+              and to this date, they&#39;ve raised £750K.
             </p>
             <h3>Tech Stack</h3>
             <ul>
@@ -102,7 +102,7 @@ export default function Index() {
               </a>
             </div>
             <p>
-              This is side project called Mercado Rural that aims to improve
+              This is a side project called Mercado Rural that aims to improve
               business transactions within agribusiness, the biggest share of
               Brazil&#39;s PIB.
             </p>
